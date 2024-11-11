@@ -376,12 +376,11 @@ ul.nav__list {
 /* Section about starts here */
 
 .about{
-    padding: var(--padding-container);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color-black);
 }
 
 
@@ -577,7 +576,7 @@ ul.nav__list {
 
 /* Section contacto starts here */
 .contact{
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color-black);
 }
 .contact h2{
     margin-bottom: 3rem;
