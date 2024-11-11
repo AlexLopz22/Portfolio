@@ -621,6 +621,7 @@ ul.nav__list {
     color: white;
     border-bottom: 3px solid transparent;
     transition: 0.3s ease-in-out;
+    color: var(--text-color-white);
 }
 .footer ul li a:hover{
     border-bottom: 3px solid var(--main-color);
