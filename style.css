@@ -376,6 +376,7 @@ ul.nav__list {
 /* Section about starts here */
 
 .about{
+    padding: var(--padding-container);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -522,6 +523,7 @@ ul.nav__list {
 }
 .services{
     background-color: var(--bg-color-black);
+    padding: var(--padding-container);
 }
 .services h2{
     color: var(--text-color-white);
