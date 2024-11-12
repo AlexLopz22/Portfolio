@@ -89,8 +89,9 @@ document.addEventListener("DOMContentLoaded", function () {
 /**************************************************************/
 
 const menuIcon = document.querySelector('#menu-icon');
-const navbar = document.querySelector('.navbar');
+const navbar = document.querySelector('.nav__list');
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
 }
