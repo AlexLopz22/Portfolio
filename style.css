@@ -24,7 +24,7 @@ html{
         --text-color-white: #ffffff;
         /* --text-color-black: #000; */
         --main-color: #59D0EE;
-        --second-bg-color: #000514;
+        --second-bg-color: #001F30;
 
         --padding-container: 5rem 0;
         svg path {
@@ -80,14 +80,13 @@ header{
 }
 
 
-/*
 #menu-icon{
-    font-size: 3rem;
+    font-size: 3.6rem;
     color: var(--main-color);
     display: none;
     text-decoration: none;
 }
-*/
+
 
 .nav__label{
     display: none;
@@ -120,9 +119,6 @@ span{
     
 
 }
-
-
-
 .controls-theme{
 
     display: flex;
@@ -131,10 +127,6 @@ span{
     gap: 2rem;
     
 }
-
-
-
-
 .theme-icon {
 
     display: flex;
@@ -380,7 +372,7 @@ ul.nav__list {
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    background-color: var(--bg-color-black);
+    background-color: var(--second-bg-color);
 }
 
 
@@ -522,9 +514,6 @@ ul.nav__list {
 }
 .services{
     background-color: var(--bg-color-black);
-    padding: var(--padding-container);
-    width: 80%;
-    margin: 0 auto
 }
 .services h2{
     color: var(--text-color-white);
@@ -578,7 +567,7 @@ ul.nav__list {
 
 /* Section contacto starts here */
 .contact{
-    background-color: var(--bg-color-black);
+    background-color: var(--second-bg-color);
 }
 .contact h2{
     margin-bottom: 3rem;
@@ -623,7 +612,6 @@ ul.nav__list {
     color: white;
     border-bottom: 3px solid transparent;
     transition: 0.3s ease-in-out;
-    color: var(--text-color-white);
 }
 .footer ul li a:hover{
     border-bottom: 3px solid var(--main-color);
@@ -640,7 +628,7 @@ ul.nav__list {
     #menu-icon{
         display: block;
     }
-    .navbar{
+    .nav__list{
         position: absolute;
         top: 100%;
         right: 0;
@@ -651,14 +639,15 @@ ul.nav__list {
         border-bottom: 2px solid var(--main-color);
         border-bottom-left-radius: 2rem;
         display: none;
+        justify-content: space-between;
     }
-    .navbar a{
+    .nav__list li{
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
         color: var(--text-color-white);
     }
-    .navbar.active{
+    .nav__list.active{
         display: block;
     }
     .container {
