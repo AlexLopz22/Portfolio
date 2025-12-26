@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandro López</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="controls">
+        <button class="theme-toggle" onclick="toggleTheme()">
+            <span id="theme-icon">🌙</span>
+        </button>
+        <button class="lang-toggle" onclick="toggleLanguage()">
+            <span id="lang-text">EN</span>
+        </button>
+    </div>
+
+    <header>
+        <h1>Alejandro López</h1>
+        <p data-es="Desarrollador Web Junior | Desarrollador de Inteligencia Artificial y Big Data | Analista de datos"
+           data-en="Junior Web Developer | AI and Big Data Developer | Data Analyst">
+            Desarrollador Web Junior | Desarrollador de Inteligencia Artificial y Big Data | Analista de datos
+        </p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre-mi" data-es="Sobre Mí" data-en="About Me">Sobre Mí</a></li>
+            <li><a href="#habilidades" data-es="Habilidades" data-en="Skills">Habilidades</a></li>
+            <li><a href="#proyectos" data-es="Proyectos" data-en="Projects">Proyectos</a></li>
+            <li><a href="#educacion" data-es="Educación" data-en="Education">Educación</a></li>
+            <li><a href="#contacto" data-es="Contacto" data-en="Contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="sobre-mi">
+            <h2 data-es="Sobre Mí" data-en="About Me">Sobre Mí</h2>
+            <p data-es="Soy un desarrollador web junior apasionado por la tecnología y el análisis de datos. Recientemente licenciado en Programación de IA y Big Data, combino habilidades en desarrollo frontend y backend con conocimientos avanzados en inteligencia artificial y análisis de grandes volúmenes de datos."
+               data-en="I am a junior web developer passionate about technology and data analysis. Recently graduated in AI and Big Data Programming, I combine frontend and backend development skills with advanced knowledge in artificial intelligence and big data analysis.">
+                Soy un desarrollador web junior apasionado por la tecnología y el análisis de datos. Recientemente
+                licenciado en Programación de IA y Big Data, combino habilidades en desarrollo frontend y backend con
+                conocimientos avanzados en inteligencia artificial y análisis de grandes volúmenes de datos.
+            </p>
+            <p style="margin-top: 15px;"
+               data-es="Mi objetivo es crear soluciones web innovadoras que integren el poder del machine learning y la ciencia de datos para resolver problemas reales."
+               data-en="My goal is to create innovative web solutions that integrate the power of machine learning and data science to solve real problems.">
+                Mi objetivo es crear soluciones web innovadoras que integren el poder del machine learning y la ciencia de datos para resolver problemas reales.
+            </p>
+            <a href="#contacto" class="btn" data-es="Contáctame" data-en="Contact Me">Contáctame</a>
+        </section>
+
+        <section id="habilidades">
+            <h2 data-es="Habilidades Técnicas" data-en="Technical Skills">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3 data-es="Desarrollo Web" data-en="Web Development">Desarrollo Web</h3>
+                    <p>HTML5, CSS3, JavaScript, React, Spring, Oracle, Python, MySQL.</p>
+                </div>
+                <div class="skill-card">
+                    <h3 data-es="Inteligencia Artificial" data-en="Artificial Intelligence">Inteligencia Artificial</h3>
+                    <p>Python, TensorFlow, Scikit-learn, Machine Learning, Deep Learning, NLP.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Big Data</h3>
+                    <p>Apache Spark, Hadoop, Pandas, NumPy, <span data-es="Análisis de Datos, Visualización" data-en="Data Analysis, Visualization">Análisis de Datos, Visualización</span>.</p>
+                </div>
+                <div class="skill-card">
+                    <h3 data-es="Herramientas" data-en="Tools">Herramientas</h3>
+                    <p>Git, GitHub, VS Code, Docker, Jupyter Notebooks.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2 data-es="Proyectos Destacados" data-en="Featured Projects">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <a href="https://www.qualitaegestion.com/" class="project-link" target="_blank">
+                    <div class="project-card">
+                        <h3>Qualitae</h3>
+                        <p data-es="Aplicación web realizada en las prácticas para una empresa privada especializada en ayudas económicas a futbolistas."
+                           data-en="Web application developed during internship for a private company specialized in financial aid for football players.">
+                            Aplicación web realizada en las prácticas para una empresa privada especializada en ayudas económicas a futbolistas.
+                        </p>
+                        <br>
+                        <p style="margin-top: 10px;"><strong data-es="Tecnologías:" data-en="Technologies:">Tecnologías:</strong> HTML, CSS3 y JS</p>
+                    </div>
+                </a>
+                <a href="https://make-your-dish.vercel.app/" class="project-link" target="_blank">
+                    <div class="project-card">
+                        <h3>Make Your Dish</h3>
+                        <p data-es="Aplicación web realizada como TFG del grado superior, la API tarda un rato en responder la primera vez que se llama a la misma."
+                           data-en="Web application developed as final degree project, the API takes a while to respond the first time it is called.">
+                            Aplicación web realizada como TFG del grado superior, la API tarda un rato en responder la primera vez que se llama a la misma.
+                        </p>
+                        <p style="margin-top: 10px;"><strong data-es="Tecnologías:" data-en="Technologies:">Tecnologías:</strong> React, Spring y Postgres</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="educacion">
+            <h2 data-es="Educación" data-en="Education">Educación</h2>
+            <div class="skill-card">
+                <h3 data-es="Curso de Especialización en Inteligencia Artificial y Big Data"
+                    data-en="Specialization Course in Artificial Intelligence and Big Data">
+                    Curso de Especialización en Inteligencia Artificial y Big Data
+                </h3>
+                <p><strong data-es="Instituto:" data-en="Institute:">Instituto:</strong> IES Ribera del Tajo (Talavera de la Reina)</p>
+                <p><strong data-es="Año:" data-en="Year:">Año:</strong> 2025</p>
+                <p style="margin-top: 10px;"
+                   data-es="Especialización en algoritmos de machine learning, procesamiento de grandes conjuntos de datos y desarrollo de aplicaciones inteligentes."
+                   data-en="Specialization in machine learning algorithms, big data processing and intelligent application development.">
+                    Especialización en algoritmos de machine learning, procesamiento de grandes conjuntos de datos y desarrollo de aplicaciones inteligentes.
+                </p>
+            </div>
+            <br>
+            <div class="skill-card">
+                <h3 data-es="Técnico Superior en Desarrollo de Aplicaciones Web"
+                    data-en="Higher Technician in Web Application Development">
+                    Técnico Superior en Desarrollo de Aplicaciones Web
+                </h3>
+                <p><strong data-es="Instituto:" data-en="Institute:">Instituto:</strong> IES Azarquiel (Toledo)</p>
+                <p><strong data-es="Año:" data-en="Year:">Año:</strong> 2023 - 2025</p>
+                <p style="margin-top: 10px;"
+                   data-es="Capacidad de desarrollo completo de una aplicación web con lenguajes como React, Spring, MySQL, Oracle..."
+                   data-en="Ability to fully develop web applications with languages like React, Spring, MySQL, Oracle...">
+                    Capacidad de desarrollo completo de una aplicación web con lenguajes como React, Spring, MySQL, Oracle...
+                </p>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2 data-es="Contacto" data-en="Contact">Contacto</h2>
+            <div class="contact-info">
+                <a href="mailto:alex05brx@gmail.com" class="contact-link">
+                    <div class="contact-item">
+                        <div class="contact-icon">@</div>
+                        <div>
+                            <strong>Email:</strong><br>
+                            alex05brx@gmail.com
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/alex-lopez-622282202" class="contact-link" target="_blank">
+                    <div class="contact-item">
+                        <div class="contact-icon">in</div>
+                        <div>
+                            <strong>LinkedIn:</strong><br>
+                            Alex López
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/AlexLopz22" class="contact-link" target="_blank">
+                    <div class="contact-item">
+                        <div class="contact-icon">GH</div>
+                        <div>
+                            <strong>GitHub:</strong><br>
+                            AlexLopz22
+                        </div>
+                    </div>
+                </a>
+                <div class="contact-item">
+                    <div class="contact-icon">☎</div>
+                    <div>
+                        <strong data-es="Teléfono:" data-en="Phone:">Teléfono:</strong><br>
+                        +34 645 02 98 64
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Alejandro López Olmedo. <span data-es="Todos los derechos reservados." data-en="All rights reserved.">Todos los derechos reservados.</span></p>
+        <p data-es="Desarrollador Web Junior | IA & Big Data"
+           data-en="Junior Web Developer | AI & Big Data">
+            Desarrollador Web Junior | IA & Big Data
+        </p>
+    </footer>
+
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            const themeIcon = document.getElementById('theme-icon');
+            const currentTheme = body.getAttribute('data-theme');
+            
+            if (currentTheme === 'dark') {
+                body.removeAttribute('data-theme');
+                themeIcon.textContent = '🌙';
+                localStorage.setItem('theme', 'light');
+            } else {
+                body.setAttribute('data-theme', 'dark');
+                themeIcon.textContent = '☀️';
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+
+        let currentLang = 'es';
+
+        function toggleLanguage() {
+            const langText = document.getElementById('lang-text');
+            currentLang = currentLang === 'es' ? 'en' : 'es';
+            langText.textContent = currentLang === 'es' ? 'EN' : 'ES';
+            
+            const elements = document.querySelectorAll('[data-es][data-en]');
+            elements.forEach(el => {
+                el.textContent = el.getAttribute(`data-${currentLang}`);
+            });
+            
+            localStorage.setItem('language', currentLang);
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedTheme = localStorage.getItem('theme');
+            const savedLang = localStorage.getItem('language');
+            
+            if (savedTheme === 'dark') {
+                document.body.setAttribute('data-theme', 'dark');
+                document.getElementById('theme-icon').textContent = '☀️';
+            }
+            
+            if (savedLang === 'en') {
+                currentLang = 'en';
+                document.getElementById('lang-text').textContent = 'ES';
+                const elements = document.querySelectorAll('[data-es][data-en]');
+                elements.forEach(el => {
+                    el.textContent = el.getAttribute('data-en');
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
